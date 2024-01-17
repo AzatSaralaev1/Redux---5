@@ -1,0 +1,60 @@
+.counter {
+    width: 300px;
+    height: 100px;
+    border: 6px solid #082981;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    z-index: 22;
+  }
+  
+  .video {
+    z-index: -21;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .btn {
+    background-color: #082981;
+    width: 70px;
+    height: 55px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+    border: none;
+    transition: 0.8s;
+    border-radius: 200px;
+  }
+  
+  .btn:hover {
+    transform: rotate(360deg);
+    color: yellow;
+    background-color: black;
+  }
+  
+  .counter:hover {
+    border: 6px solid black;
+  }
+  
+  .result:hover {
+    color: yellow;
+    background-color: black;
+  }
+  
+  .result {
+    background-color: #082981;
+    width: 60px;
+    height: 45px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+    border: none;
+    transition: 0.8s;
+    border-radius: 200px;
+  }
